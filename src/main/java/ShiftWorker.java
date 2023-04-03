@@ -27,4 +27,7 @@ public class ShiftWorker {
         this.gender = gender;
         this.shift = shift;
     }
+    @Override
+    public String toString() {
+        return "Name: " + name + ", Age: " + age + ", Gender: " + gender + ", Shift: " + shift;}
 }
